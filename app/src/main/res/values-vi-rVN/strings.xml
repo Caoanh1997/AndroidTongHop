@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidTongHop</string>
+    <string name="title">Da ngon ngu (bi dong)</string>
+    <string name="message">Tieng Anh la ngon ngu mac dinh.\nTieng Viet la ngon ngu thu hai.</string>
+</resources>

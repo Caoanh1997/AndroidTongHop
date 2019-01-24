@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:textSize="25sp"
+                />
+            <EditText
+                android:layout_weight="1"
+                android:inputType="text"
+                android:id="@+id/etname"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="input name player"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Club: "
+                android:textSize="25sp"
+                />
+            <EditText
+                android:layout_weight="1"
+                android:inputType="text"
+                android:id="@+id/etclub"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="input name club"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Star: "
+                android:textSize="25sp"
+                />
+            <EditText
+                android:layout_weight="1"
+                android:inputType="phone"
+                android:id="@+id/etstar"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="input number star"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ViewFlipper
+                android:flipInterval="3000"
+                android:autoStart="false"
+                android:layout_centerInParent="true"
+                android:id="@+id/vf"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv1"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ronaldo"/>
+                <ImageView
+                    android:id="@+id/iv2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/messi"/>
+                <ImageView
+                    android:id="@+id/iv3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/neymar"/>
+            </ViewFlipper>
+            <Button
+                android:textColor="@color/selected"
+                android:textSize="10sp"
+                android:background="@drawable/button"
+                android:layout_centerInParent="true"
+                android:id="@+id/btprevious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="previous"
+                android:layout_toLeftOf="@id/vf"/>
+            <Button
+                android:textColor="@color/selected"
+                android:textSize="10sp"
+                android:background="@drawable/button"
+                android:layout_centerInParent="true"
+                android:id="@+id/btnext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="next"
+                android:layout_toRightOf="@id/vf"/>
+        </RelativeLayout>
+        <Button
+            android:background="@drawable/button"
+            android:id="@+id/btadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="@color/selected"
+            android:textSize="30sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

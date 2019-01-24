@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidTongHop</string>
+    <string name="title">Multi Language (passive)</string>
+    <string name="message">English is default language.\nVienamese is secondary language.</string>
+    <string-array name="countries">
+        <item>England</item>
+        <item>France</item>
+        <item>Sween</item>
+        <item>Spain</item>
+        <item>Russia</item>
+        <item>Italia</item>
+    </string-array>
+</resources>

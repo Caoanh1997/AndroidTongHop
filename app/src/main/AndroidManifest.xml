@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.caoan.androidtonghop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".DateTime">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstActivityForResult">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivityForResult" />
+        <activity android:name=".GameYourMemory">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".TestNinePatch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".Transition">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LevelList" />
+        <activity android:name=".Clip" />
+        <activity android:name=".TestProgressBar" />
+        <activity android:name=".TestSeekBar" />
+        <activity android:name=".MultiLanguage" />
+        <activity android:name=".TestAutoComplete" />
+        <activity android:name=".TestCustomAutoComplete" />
+        <activity android:name=".TestBasicListView" />
+        <activity android:name=".TestCustomListView" />
+        <activity android:name=".TestBasicSpinner" />
+        <activity android:name=".TestCustomSpinner" />
+        <activity android:name=".DemoSpinnerAndListView" />
+        <activity android:name=".TestGridView" />
+        <activity android:name=".TestHandler" />
+        <activity android:name=".TestViewFlipper" />
+        <activity android:name=".TestTabHost" />
+        <activity
+            android:name=".TestActionBar"
+            android:label="Le Cao Anh" />
+        <activity android:name=".TestToolBar" />
+        <activity android:name=".TestAnimation"></activity>
+    </application>
+
+</manifest>

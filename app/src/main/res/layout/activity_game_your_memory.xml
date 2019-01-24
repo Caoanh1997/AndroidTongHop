@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameYourMemory"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/edit"/>
+
+    <Button
+        android:textColor="@color/selected"
+        android:background="@drawable/button"
+        android:id="@+id/btAnswer"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chon cau tra loi"/>
+
+    <CheckBox
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to enable/disable button"
+        android:textColor="@color/selected"
+        android:id="@+id/cb"/>
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/iv2"
+        android:src="@drawable/edit"/>
+    <Button
+        android:id="@+id/btAgain"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Again"/>
+
+</LinearLayout>

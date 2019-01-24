@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestAutoComplete"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:layout_margin="10dp"
+        android:hint="Custom Autocomplete"
+        android:id="@+id/customautocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <AutoCompleteTextView
+        android:layout_margin="10dp"
+        android:hint="Autocomplete"
+        android:id="@+id/autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        />
+    <MultiAutoCompleteTextView
+        android:completionThreshold="1"
+        android:layout_margin="10dp"
+        android:hint="Multi Autocomplete"
+        android:id="@+id/multiautocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        />
+
+
+</LinearLayout>
